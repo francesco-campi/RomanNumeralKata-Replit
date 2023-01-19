@@ -1,5 +1,7 @@
 import pytest
-from main import from_roman
+import os, sys
+sys.path.append(os.getcwd())
+from src.main import from_roman
 from roman import toRoman, fromRoman
 import numpy as np
 
